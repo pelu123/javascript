@@ -1,6 +1,6 @@
-let a= []
-let b= [1, true, false, "hello user", ["A", "B", "C"]];
-
-console.log(a);
-console.log(b);
-console.log(b[3]);
+const p2 = document.getElementById("p2") 
+console.log(p2)
+const p1 = document.getElementById("p1")
+console.log(p1)
+const example = document.getElementsByClassName("example")
+console.log(example)
