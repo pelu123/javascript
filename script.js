@@ -1,6 +1,5 @@
-const p2 = document.getElementById("p2") 
-console.log(p2)
-const p1 = document.getElementById("p1")
-console.log(p1)
-const example = document.getElementsByClassName("example")
-console.log(example)
+const buttom = document.getElementById("buttom")
+buttom.addEventListener("click", () => {
+    console.log("Di click en buttom")
+    alert("Este producto no se encuentra disponible")
+})

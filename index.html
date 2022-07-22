@@ -1,29 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Instrumentos</title>
 </head>
 
 <body>
-    <section class="tiulo">
-        <div class="example">
-            <h1>
-                <p id="p1">DOM</p>
-            </h1>
+    <header class="contenedor header">
+        <h1 class="header-titulo">Deliver Music</h1>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="./instrumentos.html">Instrumentos</a>
+            <a href="./audio.html">Audio</a>
+            <a href="./accesorios.html">Accesorios</a>
+            <a href="./nosotros.html">nosotros</a>
+        </nav>
+    </header>
+    <main>
+        <!--preimer section para guitarras-->
+        <section>
+            <h1 class="division">Guitarras</h1>
+            <div class="cards-container">
+                <div class="cards" style="--i:url(../imagenes/telecaster-guitarras.jpg)">
+                    <div class="cards-content">
+                        <h2>Fender Telecaster</h2>
+                        <a href="#" id="buttom">Ver Detalles</a>
+                    </div>
+                </div>
+                <div class="cards" style="--i:url(../imagenes/strato-guitarras.jpg)">
+                    <div class="cards-content">
+                        <h2>Fender Stratocaster</h2>
+                        <a href="#" id="buttom">Ver Detalles</a>
+                    </div>
+                </div>
+                <div class="cards" style="--i:url(../imagenes/lespaul-guitarras.jpg)">
+                    <div class="cards-content">
+                        <h2>Gibson LesPaul</h2>
+                        <a href="#" id="buttom">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--segundo section para bajos-->
+        <section>
+            <h1 class="division">Bajos</h1>
+            <div class="cards-container">
+                <div class="cards" style="--i:url(../imagenes/jazzbass-bajo.jpg)">
+                    <div class="cards-content">
+                        <h2>Fender Jazz Bass</h2>
+                        <a href="#" id="buttom">Ver Detalles</a>
+                    </div>
+                </div>
+                <div class="cards" style="--i:url(../imagenes/bajo-clasico.jpg)">
+                    <div class="cards-content">
+                        <h2>Bajo Clasico</h2>
+                        <a href="#" id="buttom">Ver Detalles</a>
+                    </div>
+        </section>
+        <!-- 3er section para baterias y mezcladoras-->
+        <section>
+            <h1 class="division">Baterias y mezcladoras</h1>
+            <div class="cards-container">
+                <div class="cards" style="--i:url(../imagenes/pioneer-mixer.jpg)">
+                    <div class="cards-content">
+                        <h2>Pioneer DDJ 400</h2>
+                        <a href="#" id="buttom">Ver Detalles</a>
+                    </div>
+                </div>
+                <div class="cards" style="--i:url(../imagenes/stagecustom-bateria.jpg)">
+                    <div class="cards-content">
+                        <h2>Yamaha Stage Custom</h2>
+                        <a href="#" id="buttom">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="contenedor footer">
+        <div class="footer-css">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
         </div>
-    </section>
-    <section class="texto">
-        <div class="example">
-            <p id="p2">El Modelo de Objetos del Documento (DOM)es una estrucura de objetos generada por el navegador, la
-                cual represetnta la pagina HTML actual.
-            </p>
-        </div>
-    </section>
-    <script src="script.js"></script>
+    </footer>
+
+
+
+<script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
